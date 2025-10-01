@@ -60,3 +60,4 @@ for num in range(2, 10):
         continue
     print(f'Found an odd number {num}')
 
+## Else Clauses on Loops
