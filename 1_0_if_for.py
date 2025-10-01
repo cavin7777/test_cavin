@@ -33,3 +33,13 @@ my_list_2 = list(range(-10, -100, -30))
 print(my_list, my_list_1, my_list_2)
 
 print(list(range(6, 12)))
+
+# To iterate over the indices of a sequence, you can combine range() and len() as follows:
+a = ['Mary', 'Cavin', 'little', 'home']
+for i in range(len(a)):
+    print(i, a[i])
+
+# SUM
+sum1 = sum(range(4))
+print(sum1)
+
