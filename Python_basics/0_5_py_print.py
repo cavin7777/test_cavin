@@ -21,3 +21,6 @@ number ="8687632874"
 print(number)
 last_digit_2 = number[-1:]
 print(f'{last_digit_2}')
+
+a = "Hello, World!"
+print(a.upper())
